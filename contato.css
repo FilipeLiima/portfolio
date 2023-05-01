@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  font-family: "Raleway";
+}
+.main-login {
+  width: 100vw;
+  height: 100vg;
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.esquerda {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 30vw;
+}
+
+.direita {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 3vh;
+  color: white;
+}
+
+.card-login {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: rgb(46, 45, 45);
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgb(32, 32, 32);
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5px 0px;
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: rgb(41, 40, 40);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield > label {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.textfield_2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px 0px;
+}
+
+.textfield_2 > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 60px;
+  background: rgb(41, 40, 40);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield_2 > label {
+  color: white;
+}
+
+.textfield_2 > ::placeholder {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 15px;
+}
+
+.btn-enviar {
+  width: 50%;
+  font-size: 15px;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-weight: 700;
+  color: white;
+  background: rgb(79, 79, 182);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 950px) {
+  .card-login {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-login {
+    flex-direction: column;
+  }
+  .esquerda > h1 {
+    display: none;
+  }
+  .esquerda {
+    width: 100%;
+    height: auto;
+  }
+  .direita {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.box .btn {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 5px 5px;
+  overflow: hidden;
+  background: rgb(71, 71, 182);
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.box .btn:hover {
+  width: 200px;
+}
+
+.box .btn .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease-out;
+}
+
+.box .btn . span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 20px;
+  transition: all 0.5s ease-out;
+}
+.box a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
